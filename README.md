@@ -1,9 +1,16 @@
 
-# Contact Management 
+# Contact Management System
 
-This project implements a Contact Management feature to allow users to efficiently manage their contacts.
+This project aims to develop a user-friendly contact management system. The system will allow users to:
 
+**Add new contacts:** Input essential details like name, email, phone number, company, and job title.
 
+**View existing contacts:** Access a searchable and paginated list of contacts.
+
+**Edit contact information:** Update contact details as needed.
+Delete contacts: Remove unnecessary or outdated contacts.
+
+By providing these features, the system will help users efficiently organize and manage their contacts, improving productivity and communication.
 
 
 ## Run Locally
