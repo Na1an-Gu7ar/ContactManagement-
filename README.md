@@ -1,8 +1,43 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Contact Management 
 
-Currently, two official plugins are available:
+This project implements a Contact Management feature to allow users to efficiently manage their contacts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+## Run Locally
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the backend server
+
+```bash
+  nodemon index.js
+```
+Start the frontend server
+
+```bash
+  npm run dev
+```
+
+## Usage
+***Start the Server:***
+
+After running both frontend and backend servers, the application will start with form showing up to add contacts and nav menu to navigate to form and contact table. Backend listening on localhost:3000 and frontend localhost:5173.
+
+******
+
+## Tech Stack
+
+**Node.js:** Backend API and server logic
+
+**Express:** HTTP server and routing
+
+**MongoDb:** Database to store contacts* 
+
+**React.js:** Frontend framework with MaterialUI for form to add/edit and table to show contacts
